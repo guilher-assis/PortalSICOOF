@@ -2,21 +2,16 @@
   function AbreConexao() {
 // NOVA CONEXAO BD OI
 
-   	$ip = "10.32.214.210:3306";
-  	$user = "jboss3";
-   	$pass = "f4sc0r0s4";
-   	$database = "BDSGCART";
 
 
 
-/*
    	$ip = "localhost";
  
  
    	$user = "root";
    	$pass = "usbw";
    	$database = "sicoof";
- */
+ 
 /*
     $user = "u442578958_root"; //produção
    	  $pass = "sicoof2015"; // produção
