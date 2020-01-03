@@ -16,11 +16,6 @@
    	$pass = "usbw";
    	$database = "sicoof";
 
-/*
-    $user = "u442578958_root"; //produção
-   	  $pass = "sicoof2015"; // produção
-   	  $database = "u442578958_ofe";
- */
  
    	$charset = "utf8";
       $link =  @mysqli_connect($ip,$user,$pass, $database) or die(mysqli_connect_error($link)); 
