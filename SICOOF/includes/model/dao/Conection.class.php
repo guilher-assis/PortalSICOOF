@@ -1,22 +1,13 @@
 ﻿<?php
   function AbreConexao() {
-// NOVA CONEXAO BD OI
 
-
-
-
-   	$ip = "localhost";
+    $ip = "localhost";
  
  
    	$user = "root";
    	$pass = "usbw";
    	$database = "sicoof";
  
-/*
-    $user = "u442578958_root"; //produção
-   	  $pass = "sicoof2015"; // produção
-   	  $database = "u442578958_ofe";
- */
  
    	$charset = "utf8";
       $link =  mysql_connect($ip,$user,$pass) or die(mysql_connect_error($link)); 
